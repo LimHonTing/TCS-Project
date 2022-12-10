@@ -1,0 +1,78 @@
+.navbar li a.homepage-nav:hover::after{
+    content: "";
+    width: 60%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+.about-us-nav::after{
+    content: "";
+    width: 76%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+.navbar li a.gallery-nav:hover::after{
+    content: "";
+    width: 72%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+.about-us-container{
+    margin-bottom: 300px;
+}
+
+.about-us-title, .job-title{
+    color:#31708F;
+    font-size: 52px;
+    margin: 100px 180px;
+}
+
+.about-us-content{
+    width: 690px;
+    text-align: justify;
+    font-size: 22px;
+    margin-left: 180px;
+}
+
+#job-roles{
+    margin-bottom: 100px;
+}
+
+.group-member-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    margin-left: 180px;
+    margin-bottom: 250px;
+}
+
+.member-name{
+    padding: 30px 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.job-scope{
+    font-size: 18px;
+}
+
+
+.collaborator-title{
+    display: flex;
+    justify-content: flex-end;
+    color:#31708F;
+    font-size: 52px;
+    margin: 50px;
+}
+

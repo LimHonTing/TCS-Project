@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 50px;
+    background-color: #F8F9FB;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 15%;
+    width: 15%;
+}
+
+.left-section .brand-name{
+    color: #AA8B56;
+    font-family: "Montagu Slab";
+    margin-left: 15px;
+}
+
+.left-section span{
+    color: #73A2B0;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1a1a1a;
+    transition: hover 0.3s ease;
+}
+
+.navbar li a:hover{
+    color: #31708F;
+}
+
+.game-nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.games-tooltip{
+    position: absolute;
+    background-color: #31708F;
+    color: white;
+    border-radius: 2px;
+    font-size: 18px;
+    bottom: -203px;
+    transition: opacity 0.15s;
+    visibility: hidden;
+    white-space: nowrap;
+}
+
+.tooltip-name{
+    padding: 15px;
+}
+
+.tooltip-name:hover{
+    background-color:#24556d;
+}
+
+.game-nav:hover .games-tooltip,
+.game-nav:active .games-tooltip{
+    visibility: visible;
+}
+
+.footer-container{
+    background-color: #8fc1e291;
+    padding: 20px 20px 0px 20px;
+    height: 120px;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo{
+    height: 3%;
+    width: 3%;
+}
+
+.footer .brand-name{
+    color: #AA8B56;
+    font-family: "Montagu Slab";
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.footer span{
+    color: #73A2B0;
+}
+
+.brand-copyright{
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 33px;
+}
+
+

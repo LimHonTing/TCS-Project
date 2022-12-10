@@ -1,0 +1,35 @@
+.navbar li a.homepage-nav:hover::after{
+    content: "";
+    width: 60%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+.about-us-nav:hover::after{
+    content: "";
+    width: 76%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+.navbar li a.gallery-nav::after{
+    content: "";
+    width: 72%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+.gallery-title{
+    color:#31708F;
+    font-size: 52px;
+    margin: 50px;
+}

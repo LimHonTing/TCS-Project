@@ -1,0 +1,167 @@
+.navbar li a.homepage-nav::after{
+    content: "";
+    width: 60%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+.navbar li a.gallery-nav:hover::after{
+    content: "";
+    width: 72%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+.about-us-nav:hover::after{
+    content: "";
+    width: 76%;
+    height: 2px;
+    background-color: #31708F;
+    position: absolute;
+    bottom: -4px;
+    left: 15px;
+}
+
+#hero{
+    background-image: url("overlay-BG.svg");
+    height: 93vh;
+    background-size: cover;
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+h1{
+    width:900px;
+    color: #31708F;
+    margin-top: 400px;
+    font-size: 65px;
+    font-family: "Montagu Slab";
+    font-weight: 600;
+}
+
+.project-brief{
+    width: 800px;
+    font-size: 30px;
+}
+
+.scroll-button{
+    margin-top: 300px;
+    background-color: transparent;
+    padding: 10px 7px;
+    border-radius: 90px;
+    border-color: #697865;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.overview-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    background-color: #F7F9FB;
+    scroll-snap-align: start;
+}
+
+.overview{
+    color:#31708F;
+    font-size: 52px;
+    font-family: "Montagu Slab";
+    font-weight: 600;
+}
+
+.overview-content{
+    width: 1200px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.objective-container{
+    background-color: #8FC1E2;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.objective-title{
+    font-size: 52px;
+    color:#31708F;
+    font-family: "Montagu Slab";
+    font-weight: 600;
+}
+
+.objective-grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 150px 1050px;
+    padding-left: 150px;
+    row-gap: 30px;
+    height: 800px;
+}
+
+.objective-image{
+    background-color: #C3DFEE;
+    border-radius: 50px;
+    margin-right: 100px;
+    padding: 20px;
+    object-fit: scale-down;
+}
+
+.objective-description{
+    padding: 30px;
+    font-size: 24px;
+    border-radius: 15px 0px;
+    width: 800px;
+}
+
+.games-title{
+    color:#31708F;
+    font-size: 52px;
+    margin: 150px;
+    justify-content: center;
+    display: flex;
+    font-family: "Montagu Slab";
+    font-weight: 600;
+}
+
+.games-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 50px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.games-photo{
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.games-description{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color:#30708F;
+}
+
+.games-photo:hover{
+    transform: scale(125%);
+    padding-bottom: 25px;
+}
+
+
