@@ -9,7 +9,6 @@
     padding: 18px 50px;
     background-color: #F8F9FB;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
-    scroll-snap-align: start;
 }
 
 .left-section{
