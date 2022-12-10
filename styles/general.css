@@ -1,0 +1,10 @@
+body{
+    font-family: "Open Sans";
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+}
+
+html{
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+}
