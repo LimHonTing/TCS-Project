@@ -29,19 +29,26 @@
 }
 
 .about-us-container{
-    margin-bottom: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.about-us-title, .job-title{
+.about-us-title, .job-title, .our-team-title{
     color:#31708F;
     font-size: 52px;
     margin: 100px 180px;
 }
 
+.about-us-image{
+    width: 80%;
+}
+
 .about-us-content{
-    width: 690px;
+    width: 80%;
     text-align: justify;
-    font-size: 22px;
+    font-size: 26px;
     margin-left: 180px;
 }
 
@@ -55,6 +62,7 @@
     row-gap: 30px;
     margin-left: 180px;
     margin-bottom: 250px;
+    width: 80%
 }
 
 .member-name{
@@ -70,7 +78,7 @@
 
 .collaborator-title{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     color:#31708F;
     font-size: 52px;
     margin: 50px;

@@ -30,7 +30,7 @@
 
 #hero{
     background-image: url("overlay-BG.svg");
-    height: 93vh;
+    height: 90vh;
     background-size: cover;
     padding: 0px 80px;
     display: flex;
@@ -42,7 +42,7 @@
 h1{
     width:900px;
     color: #31708F;
-    margin-top: 400px;
+    margin-top: 200px;
     font-size: 65px;
     font-family: "Montagu Slab";
     font-weight: 600;
@@ -50,11 +50,11 @@ h1{
 
 .project-brief{
     width: 800px;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .scroll-button{
-    margin-top: 300px;
+    margin-top: 100px;
     background-color: transparent;
     padding: 10px 7px;
     border-radius: 90px;
@@ -62,7 +62,6 @@ h1{
     border-style: solid;
     border-width: 2px;
 }
-
 
 .overview-container{
     display: flex;
@@ -81,18 +80,18 @@ h1{
 }
 
 .overview-content{
-    width: 1200px;
+    width: 1000px;
     text-align: justify;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .objective-container{
     background-color: #8FC1E2;
-    height:250px;
+    height:150px;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .objective-title{
@@ -108,8 +107,9 @@ h1{
     justify-content: center;
     grid-template-columns: 150px 1050px;
     padding-left: 150px;
-    row-gap: 30px;
-    height: 800px;
+    row-gap: 20px;
+    height: 600px;
+    margin-bottom: 30px;
 }
 
 .objective-image{
@@ -130,7 +130,7 @@ h1{
 .games-title{
     color:#31708F;
     font-size: 52px;
-    margin: 150px;
+    padding: 80px;
     justify-content: center;
     display: flex;
     font-family: "Montagu Slab";
@@ -141,12 +141,13 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    row-gap: 50px;
+    row-gap: 40px;
     margin-bottom: 100px;
     cursor: pointer;
 }
 
 .games-photo{
+    transform: scale(70%);
     border-radius: 5px;
     transition: transform 0.3s;
 }
@@ -159,7 +160,7 @@ h1{
 }
 
 .games-photo:hover{
-    transform: scale(125%);
+    transform: scale(90%);
     padding-bottom: 25px;
 }
 
